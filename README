@@ -1,0 +1,15 @@
+Tema 2 SD
+
+Realizata de: Ciupitu Andrei-Valentin
+Grupa 312 CC
+Timp de realizare: 35 de ore
+
+Mod de implementare:
+
+Task 1 - Sunt citite headerele din fisierul BMP si apoi matricea de pixeli neinversata (corespondenta imaginii normale). Este format arborele cuaternar printr-o functie recursiva, ce stabileste si numarul de noduri din arbore, pentru a putea aloca memorie pentru vectorul de compresie. Arborele este apoi parcurs in adancime si se formeaza vectorul de compresie.
+
+Task 2 - Sunt citite headerele din fisierul BMP comprimat si vectorul de compresie. Pe baza indicilor din vector ai copiilor unui nod este format arborele cuaternar, din care apoi se creeaza matricea imaginii BMP.
+
+Task 3 - Sunt citite headerele dn fisierul BMP si apoi matricea de pixeli neinversata. Este format arborele cuaternar din matrice, iar apoi folosind acest arbore este efectuata rotirea prin interschimbarea copiilor fiecarui nod. In final, este refacuta matricea imaginii.
+
+Task Bonus - Dupa ce este citita matricea, se cauta stramosul comun al celor 2 culori, in mod recursiv. Este apoi format patratul asociat acelui nod si scris in fisierul de iesire.
